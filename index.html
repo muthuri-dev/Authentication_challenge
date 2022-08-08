@@ -12,13 +12,13 @@
     <div class="container">
         <h3 style="color:white">Login</h3>
         <img src="" alt="avatar">
-        <form action="#">
+        <form onsubmit="signup(event)" autocomplete="off">
             <label for="username">Username</label><br>
-            <input type="text"name="username"id="username">
+            <input type="text"name="username"id="username"placeholder="Username"required>
             <label for="email">Email</label><br>
-            <input type="email"name="email"id="email">
+            <input type="email"name="email"id="email"placeholder="Email"required
             <label for="password">Password</label>
-            <input type="password"name="password"id="password">
+            <input type="password"name="password"id="password"placeholder="*****"required>
             <button>SIGN UP</button>
             <h3><a href="./services/login.html"><small>Have Account? Login</small></a></h3>
         </form>

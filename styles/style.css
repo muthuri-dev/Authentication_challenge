@@ -8,7 +8,7 @@ body{
 .container{
     width: 350px;
     height: 450px auto;
-    background-color: gray;
+    background-color: rgb(199, 194, 194);
     margin-top:50px;
     display: flex;
     flex-direction: column;
@@ -36,8 +36,12 @@ input{
 }
 button{
     width: 130px;height: 40px;
+    background-color: white;border: 1px solid lightgreen;
+    color: lightgreen;border-radius: 9px;
+}
+button:hover{
     background-color: lightgreen;
-    color: white;border-radius: 5px;
+    color: white;
 }
 a{
     text-decoration: none;
