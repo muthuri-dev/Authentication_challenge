@@ -7,7 +7,7 @@ body{
 }
 .container{
     width: 350px;
-    height: 450px auto;
+    height:  auto;
     background-color: rgb(199, 194, 194);
     margin-top:50px;
     display: flex;

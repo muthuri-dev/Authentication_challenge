@@ -5,7 +5,7 @@ const password=document.getElementById('password');
 
 
 //submitting data to the local storage
-const btn=document.querySelector('.btn');
+var btn=document.getElementById('btn');
 btn.addEventListener('click',function(event){
     event.preventDefault();
     var user={
@@ -28,15 +28,15 @@ btn.addEventListener('click',function(event){
 
 //Authenticating user
 
-var btnn=document.getElementById('btnn');
-btnn.addEventListener('click',function(event){
-    event.preventDefault();
+var btnn=document.querySelector('.button');
+btnn.addEventListener('click',function(e){
+    e.preventDefault();
     var emaill=document.getElementById('emaill').value;
     var pass=document.getElementById('passwordd').value;
 
     //getting user data from the localStorage
-   var userData=window.localStorage.getItem('user');
-   console.log(userData);
+   let retrievedData=JSON.parse(localStorage.getItem('user'));
+   console.log(retrievedData);
 });
 
 
