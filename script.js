@@ -26,6 +26,19 @@ btn.addEventListener('click',function(event){
     window.location.href='./services/login.html';
 });
 
+//Authenticating user
+
+var btnn=document.getElementById('btnn');
+btnn.addEventListener('click',function(event){
+    event.preventDefault();
+    var emaill=document.getElementById('emaill').value;
+    var pass=document.getElementById('passwordd').value;
+
+    //getting user data from the localStorage
+   var userData=window.localStorage.getItem('user');
+   console.log(userData);
+});
+
 
 
 
