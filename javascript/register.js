@@ -28,38 +28,3 @@ btn.addEventListener('click',function(event){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//signup function
-/*function signup(event){
-    event.preventDefault();
-
-    var user={
-        username:username.value,
-        email:email.value,
-        password:password.value
-    }
-   window.localStorage.setItem('user',JSON.stringify(user));
-  
-}
-*/
