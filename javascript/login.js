@@ -29,7 +29,7 @@ button.addEventListener('click',async function(e){
    }else if(emaill==userStored.email && pass== userStored.password){
 
     error.innerHTML='Successfull logged in';
-     window.location.href='../pages/todo.html';
+     window.location.href='https://to-do-challenge.netlify.app/';
     
    }else{
     error.innerHTML='input values does not match';
